@@ -13,7 +13,9 @@ header {
     display: flex;
     flex: 1;
 }
-
+.content {
+    display: flex;
+}
 main {
     flex: 1;
     display: flex;
@@ -29,3 +31,7 @@ aside {
     background-color: #f0f0f0;
     padding: 20px;
 }
+ section {
+     flex: 1;
+     margin: 10px;
+ }
